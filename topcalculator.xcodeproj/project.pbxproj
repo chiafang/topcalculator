@@ -19,6 +19,8 @@
 		E19440B618C17000006E3D86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E194409E18C17000006E3D86 /* UIKit.framework */; };
 		E19440BE18C17000006E3D86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E19440BC18C17000006E3D86 /* InfoPlist.strings */; };
 		E19440C018C17000006E3D86 /* topcalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19440BF18C17000006E3D86 /* topcalculatorTests.m */; };
+		E19440CC18C17712006E3D86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19440CA18C17712006E3D86 /* ViewController.m */; };
+		E19440CD18C17712006E3D86 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19440CB18C17712006E3D86 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		E19440BB18C17000006E3D86 /* topcalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "topcalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		E19440BD18C17000006E3D86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E19440BF18C17000006E3D86 /* topcalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = topcalculatorTests.m; sourceTree = "<group>"; };
+		E19440C918C17712006E3D86 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E19440CA18C17712006E3D86 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E19440CB18C17712006E3D86 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				E19440AA18C17000006E3D86 /* AppDelegate.m */,
 				E19440AC18C17000006E3D86 /* Images.xcassets */,
 				E19440A118C17000006E3D86 /* Supporting Files */,
+				E19440C918C17712006E3D86 /* ViewController.h */,
+				E19440CA18C17712006E3D86 /* ViewController.m */,
+				E19440CB18C17712006E3D86 /* ViewController.xib */,
 			);
 			path = topcalculator;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E19440A518C17000006E3D86 /* InfoPlist.strings in Resources */,
+				E19440CD18C17712006E3D86 /* ViewController.xib in Resources */,
 				E19440AD18C17000006E3D86 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19440CC18C17712006E3D86 /* ViewController.m in Sources */,
 				E19440AB18C17000006E3D86 /* AppDelegate.m in Sources */,
 				E19440A718C17000006E3D86 /* main.m in Sources */,
 			);
@@ -362,6 +372,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "topcalculator/topcalculator-Prefix.pch";
 				INFOPLIST_FILE = "topcalculator/topcalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "topcalculator/topcalculator-Prefix.pch";
 				INFOPLIST_FILE = "topcalculator/topcalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
